@@ -3,8 +3,78 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Coach manager</title>
+<meta name="Description" content="Online application for coachs" />
+<meta name="Dusan Krajcovic"
+	content="http://www.bugheaven.com/bugzilla/krajcovic/" />
+<link rel="stylesheet" type="text/css" href="../css/style.css" />
 </head>
 <body>
-	<h1><span wicket:id="message">Coach manager</span></h1>
+	<div class="wraper">
+		<div class="topbar"></div>
+
+		<div class="clr"></div>
+
+		<!-- HEADER -->
+		<div class="header">
+			<a href="../uvod"><span class="logo"></span></a>
+		</div>
+
+		<div class="clr"></div>
+
+		<div class="menubar">
+			<div class="label top" id="top">
+				<div class="menu_dock">
+					<div class="menu_side block_l"></div>
+					<ul class="menu">
+						<li>
+							<!-- tohle je tlacitko menu lvl1 --> <a href="../about"> <span
+								class="button_side side_lend"></span> <span
+								class="button_content"> About <!-- text tlačítka -->
+							</span> <span class="button_side side_r"></span> <span
+								class="button_line"></span>
+						</a>
+						</li>
+
+
+
+						<li id="euctenky"><a href="./login.html"> <span
+								class="button_side side_l"></span> <span class="button_content">
+									login </span> <span class="button_side side_r"></span> <span
+								class="button_line"></span></a></li>
+
+
+						<li><a href="./contacts.html"> <span
+								class="button_side side_l"></span> <span class="button_content">
+									Contacs </span> <span class="button_side side_r"></span> <span
+								class="button_line"></span>
+						</a></li>
+
+
+
+						<li><a href="./faq.html"> <span
+								class="button_side side_l"></span> <span class="button_content">
+									Faq </span> <span class="button_side side_r"></span> <span
+								class="button_line"></span>
+						</a></li>
+					</ul>
+					<div class="menu_side block_r"></div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="clr"></div>
+
+		<!-- MAIN -->
+		<div class="main" id="main"></div>
+
+		<div class="clr"></div>
+
+		<div class="bottombar"></div>
+
+		<h1>
+			<span wicket:id="message">Coach manager</span>
+		</h1>
+	</div>
 </body>
 </html>
