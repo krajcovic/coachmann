@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="cz.krajcovic.coachmann.common.Account" table="account"
+		catalog="coachmann">
+		<id name="id" type="java.lang.BigInteger">
+			<column name="id"></column>
+			<generator class="identity"></generator>
+		</id>
+
+		<property name="email" type="string">
+			<column name="email" length="255" not-null="true" unique="true"></column>
+		</property>
+
+		<property name="password" type="byte">
+			<column name="password" length="64" not-null="true"></column>
+		</property>
+
+		<property name="created" type="timestamp">
+			<column name="created"></column>
+		</property>
+
+		<property name="state" type="tinyint">
+			<column name="state"></column>
+		</property>
+
+		<property name="expired" type="timestamp">
+			<column name="expired"></column>
+		</property>
+
+	</class>
+</hibernate-mapping>
