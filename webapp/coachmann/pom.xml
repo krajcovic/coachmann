@@ -38,6 +38,20 @@
 			<version>1.6.1</version>
 		</dependency>
 
+		<!-- Wicket framework -->
+		<dependency>
+			<groupId>org.apache.wicket</groupId>
+			<artifactId>wicket</artifactId>
+			<version>1.4.20</version>
+		</dependency>
+
+		<!-- slf4j-log4j -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.5.6</version>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<finalName>coachmann</finalName>
