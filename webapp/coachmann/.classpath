@@ -2,11 +2,11 @@
 <classpath>
 	<classpathentry excluding="cz/krajcovic/coachmann/pages/css/|cz/krajcovic/coachmann/pages/fonts/|cz/krajcovic/coachmann/pages/img/content/|cz/krajcovic/coachmann/pages/img/layout/|cz/krajcovic/coachmann/pages/img/layout/bluebox/|cz/krajcovic/coachmann/pages/img/layout/box/|cz/krajcovic/coachmann/pages/img/layout/buttons/|cz/krajcovic/coachmann/pages/img/layout/message/|cz/krajcovic/coachmann/pages/img/layout/orangebox/|cz/krajcovic/coachmann/pages/img/social/|cz/krajcovic/coachmann/pages/img/symbols/|cz/krajcovic/coachmann/pages/js/|cz/krajcovic/coachmann/pages/layout/|cz/krajcovic/coachmann/pages/layout/buttons/|cz/krajcovic/coachmann/pages/img/" including="**/*.java" kind="src" output="target/classes" path="src/main/java"/>
 	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

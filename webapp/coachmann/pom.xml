@@ -38,21 +38,11 @@
 			<version>1.6.1</version>
 		</dependency>
 
-		<!-- Wicket framework -->
-		<!-- <dependency> <groupId>org.apache.wicket</groupId> <artifactId>wicket</artifactId> 
-			<version>1.4.20</version> </dependency> -->
-			
 		<dependency>
 			<groupId>org.apache.wicket</groupId>
 			<artifactId>wicket-core</artifactId>
 			<version>1.5.7</version>
 		</dependency>
-
-<!-- 		<dependency>
-			<groupId>org.apache.wicket</groupId>
-			<artifactId>wicket</artifactId>
-			<version>1.5.7</version>
-		</dependency> -->
 
 		<!-- slf4j-log4j -->
 		<dependency>

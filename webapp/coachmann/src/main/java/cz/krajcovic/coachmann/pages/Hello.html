@@ -1,83 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> -->
+<html xmlns:wicket> 
 
-<html xmlns="http://www.w3.org/1999/xhtml"
-	xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.3-strict.dtd">
-
-<!-- HEAD -->
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Coach manager</title>
-<meta http-equiv="imagetoolbar" content="no" />
-<meta name="robots" content="index,follow" />
-<meta name="Description" content="Online application for coachs" />
-<meta name="Dusan Krajcovic"
-	content="https://github.com/krajcovic/coachmann/wiki" />
-<link rel="stylesheet" type="text/css" href="./css/style.css" />
-</head>
-
-<!-- BODY -->
-<body id="body" onload="resize(); socdoc();">
-	<div class="wraper">
-		<div class="topbar">
-			<label>TOPBAR</label>
-		</div>
-
-		<div class="clr"></div>
-
-		<!-- HEADER -->
-		<div class="header">
-			<label>HEADER</label> <a href="../welcome"><span class="logo"></span></a>
-		</div>
-
-		<div class="clr"></div>
-
-		<div class="menubar">
-			<label>MENUBAR</label>
-			<div class="label top" id="top">
-				<div class="menu_dock">
-					<div class="menu_side block_l"></div>
-					<ul class="menu">
-						<li>
-							<!-- tohle je tlacitko menu lvl1 --> <a href="../about"> <span
-								class="button_side side_lend"></span> <span
-								class="button_content"> About <!-- text tlačítka -->
-							</span> <span class="button_side side_r"></span> <span
-								class="button_line"></span>
-						</a>
-						</li>
-
-
-
-						<li id="login"><a href="./login.html"> <span
-								class="button_side side_l"></span> <span class="button_content">
-									login </span> <span class="button_side side_r"></span> <span
-								class="button_line"></span></a></li>
-
-
-						<li><a href="./contacts.html"> <span
-								class="button_side side_l"></span> <span class="button_content">
-									Contacs </span> <span class="button_side side_r"></span> <span
-								class="button_line"></span>
-						</a></li>
-
-
-
-						<li><a href="./faq.html"> <span
-								class="button_side side_l"></span> <span class="button_content">
-									Faq </span> <span class="button_side side_r"></span> <span
-								class="button_line"></span>
-						</a></li>
-					</ul>
-					<div class="menu_side block_r"></div>
-				</div>
-
-			</div>
-		</div>
-
-		<div class="clr"></div>
-
+<wicket:extend>
 		<!-- MAIN -->
 		<div class="main" id="main">
 			<label>MAIN BODY</label>
@@ -85,12 +8,4 @@
 				<span wicket:id="message">Coach manager</span>
 			</h1>
 		</div>
-
-		<div class="clr"></div>
-
-		<div class="bottombar">
-			<label>BOTTOM BAR</label>
-		</div>
-	</div>
-</body>
-</html>
+</wicket:extend>
