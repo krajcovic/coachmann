@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.apache.org/dtds.data/wicket-xhtml1.3-strict.dtd">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+</head>
+<body>
+	<wicket:extend>
+		<div wicket:id="registrationContainer" id="registration">
+			<div class="vnitrek">
+				<form wicket:id="registrationForm">
+					Email: <input wicket:id="email" type="text" name="email" size="20" />
+					<br />Password: <input wicket:id="password" type="password"
+						name="password" size="20" /> <br /> Confirm password: <input
+						wicket:id="passwordConfirm" type="password" name="passwordConfirm"
+						size="20" /> <br />
+
+					<!-- <form wicket:id="randomCaptchaForm">
+						<form wicket:id="captchaForm">
+							<p>
+								<img wicket:id="captchaImage" />
+							</p>
+							<p>
+								<br /> <input wicket:id="passwordCaptcha" id="passwordCaptcha"
+									type="text" size="40" /> <input type="submit"
+									value="Registrovat" />
+							</p>
+						</form> -->
+					<div id="prihlasit">
+						<ul>
+
+							<li class="submit"><a href="" wicket:id="submitLink"> <span
+									style="display: none;">Registrovat</span>Registrovat
+							</a></li>
+						</ul>
+					</div>
+					<div class="clr"></div>
+					<div>
+						<span wicket:id="feedback" class="feedback">[Pole pro
+							zobrazovani hlasek]</span>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="clr"></div>
+		<div>
+			<span wicket:id="feedback" class="feedback">[Pole pro
+				zobrazovani hlasek]</span>
+		</div>
+	</wicket:extend>
+</body>
+</html>
